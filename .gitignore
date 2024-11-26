@@ -1,0 +1,51 @@
+# General files
+*.log
+*.cache
+*.bak
+*.swp
+
+# Composer dependencies
+/vendor/
+
+# Node modules (if you're using Node.js for building assets)
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PHPStorm specific
+*.iml
+/.idea
+
+# Laravel specific (if applicable)
+.env
+.phpunit.result.cache
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+
+# WordPress specific (if applicable)
+wp-config.php
+.htaccess
+
+# Cache directories for common PHP frameworks
+/tmp/
+.cache/
+*.compiled.php
+*.phpunit.result.cache
+
+# Logs and debug files
+*.log
+*.env
+
+# Custom config files
+config.php
+
